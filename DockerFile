@@ -9,6 +9,7 @@ EXPOSE 6379
 # Run the redis server
 CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
 
+
 # Build the image
 #docker build -t my-store-redis .
 
